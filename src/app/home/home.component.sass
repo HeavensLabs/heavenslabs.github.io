@@ -1,0 +1,191 @@
+.container
+    display: flex
+    flex-direction: column
+    flex: 1
+    justify-content: center
+    align-items: center
+    color: white
+    
+.title
+    width: 75vw
+    text-align: center
+    font-size: 3vw
+
+.subtitle
+    width: 40vw
+    font-size: 1.5vw
+
+.vision
+    border-radius:  1rem
+    width: 75vw
+    height: 30vw
+    margin-top: 25vh
+    border: 1px solid
+    text-align: center
+    display: flex
+    align-items: center
+    justify-content: space-between
+    border-color: rgba(2, 196, 255, 0.1)
+    background-color: rgba(2, 196, 255, 0.1)
+
+.vision-picture 
+  margin: 1vh
+  width: 30%
+  height: 20vw
+  background-color: lightgray
+  border-radius: 1rem
+
+img
+    height: 100%
+    width: 100%
+    border-radius: 1rem
+
+.vision-text
+  width: 55%
+  padding-left: 20px
+
+
+.vision-text h3
+  margin: 0
+
+.do
+    border-radius:  1rem
+    width: 75vw
+    max-height: 80vw
+    margin-top: 25vh
+    border: 1px solid
+    text-align: center
+    align-items: center
+    justify-content: space-between
+    border-color: rgba(2, 196, 255, 0.1)
+    background-color: rgba(2, 196, 255, 0.1)
+
+.do .content
+    margin: 5vw
+    justify-content: stretch
+    align-items: center
+
+.do .content .first
+    display: flex
+    justify-content: space-between
+
+.do .content .second
+    margin-top: 2vw
+    margin-left: 22vw 
+
+.do .content .box
+    max-width: 22vw
+
+
+
+.do .content .do-icon
+    background-color: #078cee
+    width: 5vw
+    height: 5vw
+    border-radius: 50%
+    display: flex
+    align-items: center
+    justify-content: center
+    margin: 0 auto
+
+.tool-container
+    margin-top: 10vh
+    width: 75vw
+    height: 10vh
+    border: 1px solid
+    border-color: rgba(2, 196, 255, 0.1)
+    background-color: rgba(2, 196, 255, 0.1)
+    align-items: center
+    justify-content: space-between
+    text-align: center
+    display: flex
+    border-radius:  1rem
+
+.tool
+    margin: 1vw
+
+.tool-logo
+    height: 4vw
+
+.join
+    margin-top: 30vh
+    margin-bottom: 20vh
+    width: 75vw
+    height: 75vw
+    text-align: center
+    justify-content: center
+
+.join .header p
+    width: 30vw
+    margin-left: 20vw
+
+.join .body
+    margin-top: 15vh
+    margin-bottom: 15vh
+    justify-content: space-between
+    display: flex
+
+.join .body .element
+    margin: 1vw
+    height: 15vw
+    width: 20vw
+    border: 1px solid
+    border-radius: 1rem
+     position: relative
+    overflow: hidden
+    transition: transform 0.3s
+
+.join .body .element
+    transform: scale(1.05)
+
+.join .body .element  img
+    object-fit: cover
+    transition: opacity 0.3s
+
+.join .body .element:hover img
+    opacity: 0.2
+
+.join .body .element .text
+    position: absolute
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    color: white
+    text-align: center
+    opacity: 0
+    transition: opacity 0.3s
+
+.join .body .element:hover .text
+    opacity: 1
+
+.join .footer
+    width: fit-content
+    padding: 0.5vw
+    display: flex
+    align-items: center
+    border-radius: 10rem
+    border: 1px solid
+    cursor: pointer
+    margin-left: 32vw
+    background-color: rgba(2, 196, 255, 0.1)
+
+.join .footer .arrow-container
+    background-color: #078cee 
+    margin-left: 0.5vw
+    width: 1.5vw
+    height: 1.5vw
+    border-radius: 50%
+    display: flex
+    align-items: center
+    justify-content: center
+    transition: background-color 0.3s ease
+
+@media (max-width: 768px) 
+    .container 
+        font-size: 1.5vw
+    
